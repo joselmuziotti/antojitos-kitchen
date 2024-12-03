@@ -16,6 +16,7 @@ nav {
 
 .fixed-nav .links a {
   color: var(--clr-grey-1);
+  text-shadow: none;
 }
 
 .fixed-nav .links a:hover {
@@ -46,7 +47,7 @@ nav {
 }
 
 .logo {
-  height: 50px;
+  height: 55px;
 }
 
 .links-container {
@@ -69,6 +70,7 @@ nav {
   transition: var(--transition);
   font-weight: bold;
   padding: 0.75rem 0;
+  text-shadow: var(--dark-shadow);
 }
 
 .links a:hover {
